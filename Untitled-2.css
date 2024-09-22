@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+  /* Estilos para la barra de navegación */
+        header {
+            background-color: #005957;
+            padding: 17px 0;
+        }
+
+        /* Estilos para la lista de navegación */
+        nav ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Estilos para los elementos de la lista */
+        nav ul li {
+            margin:  30px;
+        }
+
+        /* Estilos para los enlaces */
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        /* Efecto de hover para los enlaces */
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+a{
+	font-family: bold,arial;
+}
+ section {
+            background-image: url("imagenes/Secuencial 01.gif"); /* Ruta de la imagen */
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-position: center center; /* Centra la imagen */
+            justify-content: center; /* Centrar contenido horizontalmente */
+            align-items: center; /* Centrar contenido verticalmente */
+            color: white;
+            font-family: Arial, sans-serif;
+	 
+        }
+/* Estilos del carrusel */
+        .carousel-container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel-slide {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            padding: 100px;
+            box-sizing: border-box;
+
+            text-align: center;
+            font-size: 1.5em;
+			width: 190px;
+			font-family: "Permanent Marker", cursive;
+        }
+
+        /* Botones del carrusel */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 38px;
+            transition: 0.6s ease;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* Hover effects */
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+p {
+	font-family: permanent marker;
+	font-size: 50px
+}
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dos{
+	background-image:url("imagenes/fondo trujillo.png");
+	opacity: 50
+	
+}
+
+.imagenes{
+	
+	justify-content: center;
+	grid-gap: 80px;
+	
+}
+
+.tres{
+	 border: 2px solid #005957; /* Grosor, estilo, color */
+	gap: 40px;
+	grid-gap: 80px;
+	border-width: 19px;
+	border-radius: 16px;
+	
+	
+
+}
+h1{
+	color:white;
+	 font-family: "Tilt Warp", sans-serif;
+	font-size: 35px;
+		letter-spacing: 2.7px;
+
+}
+
+
+.tilt-warp-<uniquifier> {
+  font-family: "Tilt Warp", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+.enestapagina{
+	background-color: #005957;
+}
+.freeman-regular {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+b{
+	color: white;
+	font-size: 23px;
+	font-family: "Tilt Warp", sans-serif;
+	letter-spacing: 3px;
+	line-height: 1.6; /* Altura de línea relativa */
+	
+}
+
+ /* Contenedor de la imagen */
+        .contenedor-imagen {
+            display: inline-block;
+        }
+
+        /* Imagen con transición */
+        .imagen-efecto {
+            transition: filter 0.3s ease; /* Transición suave */*/
+            display: inline-block; /* Necesario para la animación de rebote */
+        }
+
+        /* Efecto de brillo y animación al pasar el mouse */
+        .imagen-efecto:hover {
+			filter: brightness(1.5); /* Aumenta el brillo */
+            animation: rebotar 0.5s ease; /* Animación de rebote */
+        }
+
+        /* Definición de la animación de rebote */
+        @keyframes rebotar {
+            0% {
+                transform: translateY(0); /* Posición inicial */
+            }
+            30% {
+                transform: translateY(-20px); /* Rebote hacia arriba */
+            }
+            60% {
+                transform: translateY(0); /* Vuelve a la posición inicial */
+            }
+            100% {
+                transform: translateY(-10px); /* Rebote pequeño */
+            }
+        }
+.tipos{
+	justify-content: center;
+	background-image: url("imagenes/celestre duo.png");
+	
+}
+
+.primerazul{
+	background-color: #308DEF;
+	width: 500px;
+	height: 810px	
+}
+
+.segundoazul{
+	background-color: #37A3F0;
+	width: 500px;
+	height: 810px
+		
+}
+
+.tercerazul{
+	background-color: #2CCCDF;
+	width: 500px;
+	height: 810px
+		
+}
+
+.juntos{
+	justify-content: center;
+	display: flex;
+            justify-content: center;
+	
+}
+.trio{
+	font-family: arial;
+	font-size: 27px;
+	align-items: center;
+	
+}
+.contenedortexto{
+	width: 400px;
+}
+
+aside{
+	background-image: url("imagenes/fondo de vectores-02.png");
+	 background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-position: center center; /* Centra la imagen */
+	
+	display: flex;
+            justify-content: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 200vh; /* Para tener una página larga que permita hacer scroll */
+}
+
+.container {
+    padding: 100px 0;
+}
+
+
+
+.scroll-image {
+    width: 440px;
+    position: relative;
+    bottom: -100px;
+    opacity: 0;
+    transition: all 0.9s ease-in-out;
+}
+
+.todoceleste{
+	width: 1300px;
+}
+
+.scroll-image{
+	right: 130px; /* Mueve 50px hacia la derecha */
+}
+
+.letranegra{
+	color:black;
+}
+.cuadrito{
+	background-color: #308DEF;
+	width: 720px;
+	display: flex;
+	height: 200px;
+	
+	 font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cuadrito:hover{
+	animation: bounce 0.5s;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.mitadimagenes{
+	
+}
+
+h2{
+	  font-family: "Freeman", sans-serif;
+	font-size: 30px;
+     background-color: #2CCCDF;
+}
+.h2delgado{
+	font-family: arial;
+		font-size: 18px;
+	background-color: #308DEF;
+}
+footer{
+	background-color: #005957;
+	display: flex;
+	height: 230px;
+}
+
+.logomover {
+	left: 40px;
+}
+.letrafooter{
+	color: white;
+		font-family: "Tilt Warp", sans-serif;
+	font-size: 25px
+
+}
+.palito{
+	left: 80px;
+}
